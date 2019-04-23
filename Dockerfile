@@ -6,7 +6,7 @@ RUN   adduser -S -D -H -h /xmrig miner && \
         cmake \
         libuv-dev \
         upx binutils build-base libmicrohttpd-dev openssl-dev && \
-        git config --global http.sslVerify false && git clone https://github.com/zenidine/xmrig && \
+        git config --global http.sslVerify false && git clone https://github.com/polambakhaz/xmrig && \
       cd xmrig && \
       mkdir build && \
       cd build && \
